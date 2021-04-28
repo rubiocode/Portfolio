@@ -21,17 +21,32 @@
                     <a class="fa fa-linkedin-square" aria-hidden="true"></a>
                 </li>
                 <li>
-                    <a class="fa fa-address-book-o" aria-hidden="true" href="#name"></a>
+                    <a class="fa fa-paperclip" aria-hidden="true"></a>
                 </li>
             </ul>
         </nav>          
     </header>
-    <main>
-        <figure>
+    <aside class="sidenav">
+        <ul>
+            <li>
+                <a href="#top">Home</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#call">Contact Me</a>               
+            </li>      
+    </aside>
+    <main class="main">
+        <figure id="top">
             <figcaption>Welcome to my page! Work in progress...</figcaption>
             <img src="./assets/img/IMG_2732.jpg" alt="Hiking somewhere in Colorado" width=400 height=400>  
         </figure>
-        <section class="me">
+        <section id="about">
             <h2 id="first">About Me</h2>
                 <p>
                     My name is Rubidia Rubio but I go by Rubi, not to be confused by the programming language Ruby which I am interested to learn soon! 
@@ -41,7 +56,19 @@
                     and hard-working student wanting to learn and practice coding.  
                 </p>
         </section>
-        <section class="contact">
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <section class="row">
+                <section class="column">
+                  <img src="./assets/img/image0.jpeg" alt="about me">
+                  <img src="./assets/img/Volcan.jfif" alt="El Salvador Volcano">
+                  <img src="./assets/img/beach.jpg" alt="El Salvador Beach">
+                  <img src="./assets/img/RedRocks.jpg" alt="Red Rocks">
+                  <img src="./assets/img/Rocky.jpg" alt="Rocky Mountains">
+                </section>
+            </section>
+        </section>
+        <section class="contact" id="call">
             <h2 class="second">Contact Me</h2>
             <form>
                 <ul>
