@@ -2,12 +2,15 @@
     margin: auto;
 }
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:monospace,Arial, Helvetica, sans-serif;
     background:#282828;
-    background:linear-gradient( #EE7752, #e73c7e,#23A6D5, #23D5AB);
+    background:linear-gradient( #EE7752, #e73c7e,#23A6D5, #23D5AB) no-repeat;
+    background-size: 1000% 1000%;
 }
 
 header h1 {
+    font-family: monospace,Arial, Helvetica, sans-serif;
+    font-size: 40px;
     color: black;
     margin-left: 200px;
     display: inline;
@@ -24,6 +27,7 @@ header nav {
     right: 0;  
   }
   .sidenav {
+    font-family: monospace,Arial, Helvetica, sans-serif;
     height: 100%;
     width: 160px;
     position: fixed;
@@ -63,7 +67,7 @@ img {
     display: block;
     padding: 5px;
     border: 5px solid black;
-    margin: 20px auto;
+    margin: 40px auto;
   
 }
 
@@ -97,15 +101,16 @@ li:hover {
   .column {
     flex: 50%;
     padding: 0 4px;
+    margin: 30px;
   }
   
 .column img {
     display:inline;
     margin-top: 8px;
     vertical-align: middle;
-    width: 400px;
-    height: 400px;
-    
+    width: 350px;
+    height: 350px;
+    margin:30px;
   }
 .column img:hover {
     transform: scale(1.5);
@@ -116,15 +121,18 @@ li:hover {
 }
 
 
-form ul {
+.contact button, form ul {
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
 }
 
 form ul li {
     list-style: none;
     margin: 20px;
     display: inline-block;
-    position: relative;
     left: 50px;
     font-size: 20px;
     padding: 10px;
@@ -140,7 +148,7 @@ h2 {
 p{
     color:black;
     text-align:left;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:monospace,Arial, Helvetica, sans-serif;
     font-weight:lighter;
     font-size: 18px;
     line-height: 2.0;
