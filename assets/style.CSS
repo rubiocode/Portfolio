@@ -60,10 +60,7 @@ nav ul li a {
     cursor: grab;
 }
 
-nav ul li:hover {
-    color: yellow;
-    border: 5px solid yellow;
-}
+
 /*end of header section and nav icons styling*/
 
 
@@ -138,11 +135,7 @@ img {
     height: 300px;
     width: 300px;
   }
-.column img:hover {
-    width: 400px;
-    height:400px;
-    cursor:grab;
-}
+
 
 /*form contact me section*/
 .container {
@@ -182,6 +175,23 @@ footer{
     font-weight:bold;
 }
 
+/*pseudo elements*/
+
+nav ul li:hover {
+    color: yellow;
+    border: 5px solid yellow;
+}
+
+.column img:hover {
+    width: 400px;
+    height:400px;
+    cursor:grab;
+}
+
+section form button:hover {
+    background-color: gray;
+}
+
 /*media queries for background*/
 
 @media screen and (max-width:980px) {
@@ -205,6 +215,9 @@ footer{
     .container {
           margin: auto;
       }  
+    nav ul li a {
+        color: white;
+    }
 
 }
 @media screen and (min-width:320px){
