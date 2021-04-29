@@ -189,6 +189,18 @@ footer{
     font-size:smaller;
     background-size: 500% 500%;
     }
+
+    header h1 {
+        display: none;
+    }
+    
+    .sidenav {
+       position: static;
+       min-height: 200px;
+       height:auto;
+       width:100%;
+      }
+
 }
 @media screen and (min-width:320px){
     body {
