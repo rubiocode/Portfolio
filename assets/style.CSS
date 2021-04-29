@@ -127,7 +127,7 @@ img {
     margin: 30px;
   }
   
-.column img {
+.column a img {
     display:inline-flex;
     flex-wrap:wrap;
     padding: 5px;
@@ -175,7 +175,7 @@ footer{
     font-weight:bold;
 }
 
-/*pseudo elements*/
+/*pseudo class*/
 
 nav ul li:hover {
     color: yellow;
