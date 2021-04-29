@@ -1,11 +1,12 @@
 * {
     margin: auto;
 }
+
 body {
     font-family:monospace,Arial, Helvetica, sans-serif;
     background:#282828;
-    background:linear-gradient( #EE7752, #e73c7e,#23A6D5, #23D5AB) no-repeat;
-    background-size: 1000% 1000%;
+    background:linear-gradient( #EE7752, #e73c7e,#23A6D5, #23D5AB);
+    background-size: 500% 500%;
 }
 
 header h1 {
