@@ -60,7 +60,7 @@ nav ul li a {
     cursor: grab;
 }
 
-li:hover {
+nav ul li:hover {
     color: yellow;
     border: 5px solid yellow;
 }
@@ -145,31 +145,33 @@ img {
 }
 
 /*form contact me section*/
-.contact button, form ul {
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    justify-content:space-between;
-}
-
-form ul li {
-    list-style: none;
-    margin: 20px;
-    display: inline-block;
-    left: 50px;
-    font-size: 20px;
-    padding: 10px;
+.container {
     color: black;
-    border: 3px solid black;
-    border-radius: 50%;
+    border-radius: 5px;
+    Background-color:white;
+    width: 50%;
+    Margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 300px;
+    padding:20px;
+    text-align:center;
+    display: relative;
+    
+}
+input [type=text] , textarea {
+    width: 50px 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top:6px;
+    margin: bottom 16px;
+    resize:vertical;
 }
 
-.me {
-    border: 4px solid black;
-    margin-left: 100px;
-    margin-right: 100px;
-    background: white;
+
+section form button:hover {
+    background-color: gray;
 }
 
 /*footer styling*/
@@ -185,7 +187,7 @@ footer{
 @media screen and (max-width:980px) {
     body {
     background:#282828;
-    color: white;
+    color: teal;
     font-size:smaller;
     background-size: 500% 500%;
     }
@@ -200,6 +202,9 @@ footer{
        height:auto;
        width:100%;
       }
+    .container {
+          margin: auto;
+      }  
 
 }
 @media screen and (min-width:320px){
