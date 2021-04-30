@@ -52,15 +52,12 @@ header nav {
     color: black;
     border: 3px solid black;
     border-radius: 50%;
-
 }
 
 nav ul li a {
     color: black;
     cursor: grab;
 }
-
-
 /*end of header section and nav icons styling*/
 
 
@@ -102,7 +99,7 @@ img {
   
 }
 
-/* main content section*/
+/* about me section*/
   .main {
     margin-left: 160px;
     font-size: 28px;
@@ -115,23 +112,13 @@ img {
 }
 
 /*portfolio section and portfolio img styling*/
-.row {
+
+.column {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  .column {
-    flex: 50%;
-    padding: 0 4px;
-    margin: 30px;
   }
   
 .column a img {
-    display:inline-flex;
-    flex-wrap:wrap;
-    padding: 5px;
-    justify-content: flex-end;
     height: 300px;
     width: 300px;
   }
@@ -151,14 +138,14 @@ img {
     display: relative;
     
 }
-input [type=text] , textarea {
+input [type=text] , textarea , input {
     width: 50px 200px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top:6px;
-    margin: bottom 16px;
+    margin-bottom 16px;
     resize:vertical;
 }
 
@@ -197,26 +184,29 @@ section form button:hover {
 @media screen and (max-width:980px) {
     body {
     background:#282828;
-    color: teal;
+    color: greenyellow;
     font-size:smaller;
     background-size: 500% 500%;
     }
 
     header h1 {
-        display: none;
+        visibility: hidden;
     }
     
     .sidenav {
-       position: static;
-       min-height: 200px;
-       height:auto;
-       width:100%;
+       position: fixed;
+       top:0;
+       right: 0,
       }
     .container {
           margin: auto;
       }  
     nav ul li a {
         color: white;
+    }
+
+    input [type=text] , textarea , input {
+        width: 50%;
     }
 
 }
