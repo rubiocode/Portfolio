@@ -208,6 +208,9 @@ section form button:hover {
     input [type=text] , textarea , input {
         width: 50%;
     }
+    section form button:hover {
+        width: 50%
+    }
 
 }
 @media screen and (min-width:320px){
