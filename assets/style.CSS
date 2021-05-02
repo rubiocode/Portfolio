@@ -96,6 +96,8 @@ img {
     padding: 5px;
     border: 5px solid black;
     margin: 40px auto;
+    width:400px; 
+    height:auto;
   
 }
 
@@ -208,8 +210,9 @@ section form button:hover {
     input [type=text] , textarea , input {
         width: 50%;
     }
-    section form button:hover {
-        width: 50%
+    .mediaq {
+        width: 50%;
+        font-size: smaller;
     }
 
 }
