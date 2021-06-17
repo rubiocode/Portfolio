@@ -5,8 +5,8 @@ For this early version of my Web Developer portfolio I presented the prospective
 
 ## Submission
 
-**Deployed URL:** https://rubiocode.github.io/rubiocode-pf/
-**Github:** https://github.com/rubiocode/rubiocode-pf
+**Deployed URL:** https://rubiocode.github.io/portfolio/
+**Github:** https://github.com/rubiocode/portfolio
 
 
 1) Final product
